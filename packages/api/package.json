@@ -4,10 +4,10 @@
     "main": "index.ts",
     "types": "index.ts",
     "dependencies": {
-        "@blueprint/auth": "workspace:*",
-        "@blueprint/db": "workspace:*",
-        "@blueprint/emails": "workspace:*",
-        "@blueprint/utils": "workspace:*",
+        "@blueprint/auth": "*",
+        "@blueprint/db": "*",
+        "@blueprint/emails": "*",
+        "@blueprint/utils": "*",
         "@trpc/client": "^10.40.0",
         "@trpc/server": "^10.40.0",
         "date-fns": "^2.30.0",
@@ -19,7 +19,7 @@
         "zod": "^3.22.4"
     },
     "devDependencies": {
-        "@blueprint/tsconfig": "workspace:*",
+        "@blueprint/tsconfig": "*",
         "typescript": "5.2.2"
     }
 }

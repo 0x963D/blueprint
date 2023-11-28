@@ -39,5 +39,5 @@ export default withAuth(
 );
 
 export const config = {
-    matcher: ["/tasks", "/((?!api|static|.*\\..*|_next|favicon.ico|robots.txt).*)"],
+    matcher: ["/tasks"],
 };

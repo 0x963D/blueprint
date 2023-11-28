@@ -2,6 +2,7 @@ import { PrismaClient } from "@prisma/client";
 
 // Make sure that there is only one instance of Prisma Client at any one time.
 declare global {
+    // eslint-disable-next-line no-var
     var __globalPrisma__: PrismaClient;
 }
 

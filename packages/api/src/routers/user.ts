@@ -63,7 +63,7 @@ export const userRouter = createRouter({
         });
         const resetLink = `${url}/reset-password?token=${token.id}`;
         return await resend.emails.send({
-            from: "Jack <no-reply@jackquinlan.co>",
+            from: "onboarding@resend.dev",
             to: [userExists.email],
             subject: "Blueprint",
             react: ResetPasswordEmail({ name: userExists.name ?? "User", resetLink: resetLink }),

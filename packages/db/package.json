@@ -6,8 +6,8 @@
     "scripts": {
         "db:generate": "prisma generate",
         "db:push": "prisma db push --skip-generate",
-        "db:seed": "pnpx prisma db seed",
-        "db:format": "pnpx prisma format"
+        "db:seed": "npx prisma db seed",
+        "db:format": "npx prisma format"
     },
     "prisma": {
         "seed": "ts-node --transpile-only ./seed.ts"
